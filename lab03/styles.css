@@ -1,0 +1,104 @@
+header {
+    background-color: #2c3e50; 
+    color: #ffffff;           
+    text-align: center;        
+    padding: 20px;      
+    margin: 2px;       
+}
+nav {
+    width: 100%;
+    text-align:center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: rgb(10, 9, 9);
+    padding: 5px;             
+}
+
+
+nav a:hover {
+    background-color: rgb(212, 36, 68);
+    color: rgb(238, 234, 234);
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.profile {
+    text-align: center;     
+    margin: 20px 0;
+}
+
+section {
+    width: 75%;
+    margin: auto;
+    border: 1px solid #E8DAEF;
+    border-radius: 10px;
+}
+
+section h3{
+    background-color: #f1d4ff;
+    text-align: left;
+    padding:10px;
+
+}
+
+section ul{
+    padding: 15px 35px;
+    margin: 0;
+}
+
+span {
+    color: rgb(255, 4, 226);
+    font-weight: bold;
+}
+
+section table{
+    width: 100%;
+    background-color: #E8DAEF;
+    text-align: center;  
+        
+}
+
+.con{
+    text-align: center;     
+    margin: 20px 0;
+}
+
+fieldset {
+    border-radius: 10px;
+}
+
+legend {
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+    border-radius: 8px;
+
+}
+
+.IO {
+    font-style: italic;
+    color: gray;
+    font-weight: 10;
+}
+
+.IS {
+    color: rgb(0, 0, 0);
+    font-weight: 50;
+}
