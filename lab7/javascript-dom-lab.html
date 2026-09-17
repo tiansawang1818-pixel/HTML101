@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title> Document</title>
+</head>
+
+<body>
+    <h1>javascript sum number random</h1>
+    <label for="user">Input N between 1-20</label>
+    <input type="text" id="user" placeholder="inputhere">
+    <button type="button" onclick="ramdom()"> generate number</button>
+<br>
+<section>
+    <div>Size:<span id=size> </span> </div>
+    <div>number:<span id=number> </span> </div>
+    <div id="box">total sum:<span id=total> </span> </div>
+</section>
+
+<script>
+    function ramdom() {
+        let n=Number.parseInt(document.getElementById("user").value);
+        let Occc=0
+        let strfatman=" "
+        
+        if (Number.isNaN(n) || n < 1 || n > 20) {
+            alert("pls enter 1-20");
+            return;
+        }
+    
+        for (let i=0 ;i<n;i++){
+            let random=Math.floor(Math.random()*100)+1;
+            Occc+=random;
+            strfatman+=random+" ";
+        }
+
+        document.getElementById("size").innerText=n;
+        document.getElementById("number").innerText=strfatman;
+        document.getElementById("total").innerText=Occc;
+    
+        let box=document.getElementById("box");
+        box.style.display="block";
+
+        if (Occc%2==0){
+            box.style.backgroundColor="pink"
+            box.style.color="red"
+        }else{
+            box.style.backgroundColor="yellow"
+            box.style.color="red"
+        }
+    }
+
+    
+</script>
+
+</body>
+
+</html>
