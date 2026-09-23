@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Webkub</title>
+        <link rel="stylesheet" href="forex1.css">
+    </head>
+
+    <body>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">test1</a>
+            <a href="#">test2</a>
+            <a href="#">test3</a>
+        </nav>
+
+        <header><h1>Information about him</h1></header>
+        
+        <div class="image-box">
+        <img src="test1.jpg" alt="ไอ้เบส" width="250">
+        <img src="test2.jpg" alt="ไอ้เบส" width="250">
+        <img src="test3.jpg" alt="ไอ้เบส" width="250">
+        <img src="test4.jpeg" alt="ไอ้เบส" width="250">
+        </div>
+
+        <div class="test555">
+        <section class="Iklao">
+                Etiam massa ex, rutrum id elementum ac, porta ut felis. Phasellus volutpat pretium est maximus
+                venenatis. Cras rutrum suscipit fringilla. Donec efficitur, odio sit amet suscipit imperdiet, elit ex
+                viverra nunc, placerat sodales nibh elit non odio.
+        </section>
+
+        <section class="Iklao2">
+                Aenean lobortis bibendum purus. Vestibulum mattis euismod lorem, eu eleifend mi. Donec sed porta nisl.
+                Integer sit amet tristique neque, sed luctus est. Mauris quis facilisis metus, quis rhoncus justo. In
+                posuere felis a nisl consectetur suscipit.
+        </section>
+
+        <section class="Iklao3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porta lacus id libero semper, id pharetra
+                tortor dictum. Aenean a orci eget lectus iaculis rhoncus. Integer sed faucibus ante, in porta risus.
+                Praesent ut euismod ipsum, vel mollis massa. Ut libero risus, laoreet sagittis lacinia at, fermentum sed
+                sapien. Nam maximus pharetra ligula vitae lobortis. Donec leo erat, convallis id cursus vitae, semper
+                eget risus. Vivamus urna velit, euismod in tellus et, euismod sollicitudin mi. Cras accumsan vitae
+                libero vel ornare.
+        </section>
+        </div>
+        
+        
+        <span><h1>contract us</h1></span><br>
+        <div class="aoo">
+        <form onsubmit= "return tttt()" >
+
+            <div class="us"><br>
+            <label for="user">id i sus</label><br>
+            <input type="text" id="user" placeholder="kuy">
+            </div>
+
+            <div class="na"><br>
+            <label for="name">id i sus</label><br>
+            <input type="text" id="name" placeholder="your dad name">
+            </div>
+
+            <div class="em"><br>
+            <label for="email">id i sus</label><br>
+            <input type="email" id="email" placeholder="Esus">
+            </div>
+
+            <div class="telophon"><br>
+            <label for="telo">No.</label><br>
+            <input type="tel" id="telo" placeholder="EHIA" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            </div>
+
+        <br><button type="submit" >กดครับ</button>
+        </form>
+        </div>
+
+        <footer>
+            <h1>BEST LOVE PORNHUB</h1>
+        </footer>
+
+
+
+    <script>
+        function tttt(){
+            let u=document.getElementById("user").value
+            let n=document.getElementById("name").value
+
+            if (u.length<5){
+                alert("ชื่อ ต้องยาวอย่างน้อย 5 ตัว");
+                console.log(u)
+                return false
+            }
+            if (n.length<5){
+                alert("นามสกุล ต้องยาวอย่างน้อย 5 ตัว")
+                console.log(n)
+                return false
+            }
+            console.log(u)
+            console.log(n)
+            return false
+        }
+        
+
+    </script>
+
+    </body>
+
+</html>
